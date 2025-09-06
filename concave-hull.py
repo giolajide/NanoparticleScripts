@@ -15,11 +15,10 @@ from descartes import PolygonPatch
 from typing import List, Tuple, Union, Literal
 from ase import Atoms
 import warnings
-try:
-    from fit_support import cross_sectional_area
-except ImportError:
-    print(f"Add /mnt/public/giolajide/npscripts/ to your PYTHON_PATH")
-    exit(1)
+
+##~/npscripts/
+from catalytic_descriptors import cross_sectional_area
+
 
 
 
