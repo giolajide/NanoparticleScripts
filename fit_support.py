@@ -10,9 +10,9 @@ This script contains many useful functions for Ag/MgO
     modifies structures
     classifies structures
 
-    and many more!
+    and many more
 
-    It is the most useful script I have ever written.
+
     Some updates in the Active_Learning module. Check the "deprecated" function below
 """
 #!/usr/bin/env python
@@ -50,10 +50,9 @@ LOW_INDEX_FACET_BUILDERS = {
 }
 #AG_MGO_INTERFACE = (1,0,0)
 
-def backup() -> None:
-    system("cp /mnt/public/giolajide/npscripts/fit_support.py "
-            "/mnt/public/giolajide/npscripts/fit_support.py.bak")
-    print("backup complete")
+#def backup() -> None:
+#    NEVER MIND
+#    print("backup complete")
 
 def deprecated(function):
     @functools.wraps(function)
